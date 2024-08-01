@@ -52,14 +52,6 @@ const WebsiteDesignBenefits = () => {
         p={5}
       >
         <VStack spacing={4}>
-          <Heading
-            fontSize="32px"
-            mb={7}
-            bgGradient="linear(45deg, #63B3ED, #2B6CB0)"
-            bgClip="text"
-          >
-            웹사이트 디자인의 장점
-          </Heading>
           {benefits.map((benefit, index) => (
             <GradientText key={index}>{benefit}</GradientText>
           ))}
